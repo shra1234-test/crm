@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Task is registered]]>
+    </line>
+    <line>
+      <![CDATA[Task is deleted]]>
+    </line>
+    <line>
+      <![CDATA[Task is edited]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="128" started-at="2020-11-26T11:20:06 IST" finished-at="2020-11-26T11:20:06 IST">
+    <groups>
+      <group name="reg">
+        <method signature="DemoA2.deleteTask()[pri:5, instance:Qsp.DemoA2@1d16f93d]" name="deleteTask" class="Qsp.DemoA2"/>
+        <method signature="DemoA2.editTask()[pri:6, instance:Qsp.DemoA2@1d16f93d]" name="editTask" class="Qsp.DemoA2"/>
+      </group> <!-- reg -->
+      <group name="smoke">
+        <method signature="DemoA2.deleteTask()[pri:5, instance:Qsp.DemoA2@1d16f93d]" name="deleteTask" class="Qsp.DemoA2"/>
+        <method signature="DemoA2.registerTask()[pri:4, instance:Qsp.DemoA2@1d16f93d]" name="registerTask" class="Qsp.DemoA2"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Default test" duration-ms="128" started-at="2020-11-26T11:20:06 IST" finished-at="2020-11-26T11:20:06 IST">
+      <class name="Qsp.DemoA2">
+        <test-method status="PASS" signature="registerTask()[pri:4, instance:Qsp.DemoA2@1d16f93d]" name="registerTask" duration-ms="21" started-at="2020-11-26T11:20:06 IST" finished-at="2020-11-26T11:20:06 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Task is registered]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registerTask -->
+        <test-method status="PASS" signature="deleteTask()[pri:5, instance:Qsp.DemoA2@1d16f93d]" name="deleteTask" duration-ms="7" started-at="2020-11-26T11:20:06 IST" finished-at="2020-11-26T11:20:06 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Task is deleted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteTask -->
+        <test-method status="PASS" signature="editTask()[pri:6, instance:Qsp.DemoA2@1d16f93d]" name="editTask" duration-ms="6" started-at="2020-11-26T11:20:06 IST" finished-at="2020-11-26T11:20:06 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Task is edited]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editTask -->
+      </class> <!-- Qsp.DemoA2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
